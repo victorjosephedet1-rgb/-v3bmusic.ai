@@ -1,0 +1,14 @@
+STEP-BY-STEP PUSH INSTRUCTIONS:
+
+1. Copy your token from: https://github.com/settings/tokens
+   (Click on "v3bmusic-push" to reveal the token)
+
+2. Run this command (replace YOUR_TOKEN with the actual token):
+   git remote set-url origin https://YOUR_TOKEN@github.com/victorjosephedet1-rgb/-v3bmusic.ai.git
+
+3. Then push:
+   git push -u origin main
+
+Example (with fake token):
+git remote set-url origin https://ghp_abcd1234efgh5678ijkl@github.com/victorjosephedet1-rgb/-v3bmusic.ai.git
+git push -u origin main

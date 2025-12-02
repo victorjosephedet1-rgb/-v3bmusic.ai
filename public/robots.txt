@@ -1,0 +1,23 @@
+# robots.txt for V3BMusic.AI
+User-agent: *
+Allow: /
+Allow: /marketplace
+Allow: /demo
+Allow: /register
+Allow: /login
+Allow: /safety
+Allow: /artist/*
+Allow: /verify/*
+
+# Disallow admin and dashboard
+Disallow: /admin
+Disallow: /dashboard
+
+# Disallow legal pages from indexing (they should be accessible but not indexed)
+Disallow: /legal/
+
+# Sitemaps
+Sitemap: https://v3bmusic.ai/sitemap.xml
+
+# Crawl delay (be nice to smaller bots)
+Crawl-delay: 1

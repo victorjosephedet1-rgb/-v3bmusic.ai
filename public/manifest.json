@@ -1,0 +1,55 @@
+{
+  "name": "V3BMusic.AI",
+  "short_name": "V3BMusic",
+  "description": "AI-Powered Blockchain Music Licensing Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["music", "business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Marketplace",
+      "short_name": "Shop",
+      "description": "Browse audio packs",
+      "url": "/marketplace",
+      "icons": []
+    },
+    {
+      "name": "Demo",
+      "short_name": "Demo",
+      "description": "Try platform demo",
+      "url": "/demo",
+      "icons": []
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Artist dashboard",
+      "url": "/dashboard",
+      "icons": []
+    }
+  ]
+}

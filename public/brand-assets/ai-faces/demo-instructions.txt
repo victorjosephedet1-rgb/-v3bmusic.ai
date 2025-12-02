@@ -1,0 +1,31 @@
+🎭 V3B Music AI Faces - Quick Setup Guide
+
+STEP 1: Get AI-Generated Faces
+===============================
+Visit: https://thispersondoesnotexist.com/
+- Refresh page for new face
+- Right-click → "Save image as..."
+- Save as: ai-face-1.jpg
+
+Repeat 20-30 times for variety!
+
+STEP 2: Alternative Sources
+===========================
+- Generated Photos: https://generated.photos/faces
+- Unsplash (search "portrait"): https://unsplash.com/s/photos/portrait
+- Pexels (search "person"): https://pexels.com/search/person/
+
+STEP 3: Naming Convention
+=========================
+ai-face-1.jpg
+ai-face-2.jpg
+ai-face-3.jpg
+...
+ai-face-25.jpg
+
+STEP 4: Update Component
+========================
+In src/components/RandomAIFace.tsx:
+Change: const numberOfFaces = 25; // to your actual count
+
+DONE! Your community faces will appear throughout the platform! 🚀

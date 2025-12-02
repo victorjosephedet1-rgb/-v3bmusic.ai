@@ -1,0 +1,5 @@
+# Redirect www to non-www
+https://www.v3bmusic.ai/* https://v3bmusic.ai/:splat 301!
+
+# SPA fallback for client-side routing
+/*    /index.html   200
